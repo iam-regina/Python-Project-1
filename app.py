@@ -11,5 +11,5 @@ feeling=input("How do you feel right now?")
   if feeling == "tired":
     feelings_list.append("tired")
     print("Maybe it is time for you to rest, go on. ")
-    
-       
+  else:
+    print("Sorry" + name + ", could you rephrase what you mean? I am afraid I don't understand what you are saying.")
